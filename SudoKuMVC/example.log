@@ -1,0 +1,232 @@
+ERROR main com.sudoku.iostream.HandleExcelSource - FileNotFoundException : 
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.sudoku.iostream.HandleExcelSource.readFile(HandleExcelSource.java:33)
+	at com.sudoku.iostream.HandleExcelSource.main(HandleExcelSource.java:116)
+ERROR main com.sudoku.iostream.HandleExcelSource - FileNotFoundException : 
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.sudoku.iostream.HandleExcelSource.readFile(HandleExcelSource.java:33)
+	at com.sudoku.iostream.HandleExcelSource.main(HandleExcelSource.java:117)
+ERROR main com.sudoku.iostream.HandleExcelSource - NullPointerException
+java.lang.NullPointerException
+	at com.sudoku.iostream.HandleExcelSource.main(HandleExcelSource.java:117)
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 9
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/QuangTruong/SudoKuMVC/SudoKuMVC/src/com/sudoku/source/GameData.xlsx; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:39)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:52)
+	at com.sudoku.controller.GameController.startGame(GameController.java:30)
+	at com.sudoku.view.Main.main(Main.java:45)
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/QuangTruong/SudoKuMVC/SudoKuMVC/src/com/sudoku/source/GameData.xlsx; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:39)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:52)
+	at com.sudoku.controller.GameController.startGame(GameController.java:30)
+	at com.sudoku.view.Main.main(Main.java:45)
+ERROR main com.sudoku.iostream.HandleExcelData - FileNotFoundException : 
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.sudoku.iostream.HandleExcelData.readFile(HandleExcelData.java:33)
+	at com.sudoku.iostream.HandleExcelData.main(HandleExcelData.java:117)
+ERROR main com.sudoku.iostream.HandleExcelData - NullPointerException
+java.lang.NullPointerException
+	at com.sudoku.iostream.HandleExcelData.main(HandleExcelData.java:117)
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/QuangTruong/SudoKuMVC/SudoKuMVC/src/com/sudoku/source/GameData.xlsx; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:39)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:52)
+	at com.sudoku.controller.GameController.startGame(GameController.java:30)
+	at com.sudoku.view.Main.main(Main.java:45)
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/QuangTruong/SudoKuMVC/SudoKuMVC/src/com/sudoku/source/GameData.xlsx; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:39)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:52)
+	at com.sudoku.controller.GameController.startGame(GameController.java:28)
+	at com.sudoku.view.Main.main(Main.java:45)
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 0
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 2
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 1
+INFO main com.sudoku.service.GameImp - 3
+INFO main com.sudoku.service.GameImp - 4
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 5
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 6
+INFO main com.sudoku.service.GameImp - 7
+INFO main com.sudoku.service.GameImp - 8
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/Eclipse/SudoKuMVC/SudoKuMVC/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:40)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:51)
+	at com.sudoku.controller.GameController.startGame(GameController.java:25)
+	at com.sudoku.view.Main.main(Main.java:50)
+ERROR main com.sudoku.iostream.HandleXMLData - Cannot read file 
+org.xml.sax.SAXParseException; systemId: file:/E:/Eclipse/SudoKuMVC/SudoKuMVC/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.sudoku.iostream.HandleXMLData.readFile(HandleXMLData.java:40)
+	at com.sudoku.service.GameImp.initGame(GameImp.java:51)
+	at com.sudoku.controller.GameController.startGame(GameController.java:25)
+	at com.sudoku.view.Main.main(Main.java:50)
